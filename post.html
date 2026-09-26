@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post - My Blogger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">My Blogger</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="create-post.html">Create Post</a>
+        </nav>
+    </header>
+
+    <main class="single-post">
+
+        <article>
+
+            <h1 id="postTitle">Welcome to My First Blog</h1>
+
+            <p class="post-info">
+                By <strong id="postAuthor">Ali Hassan</strong>
+                | <span id="postDate">September 26, 2026</span>
+            </p>
+
+            <span class="category" id="postCategory">
+                Technology
+            </span>
+
+            <div class="post-content" id="postContent">
+
+                <p>
+                    Welcome to my first blog post!
+                    This is a sample article for my Blogger Clone.
+                </p>
+
+                <p>
+                    Here I can share my ideas, knowledge, stories
+                    and interesting information with my readers.
+                </p>
+
+                <p>
+                    Thank you for visiting my blog.
+                    I hope you enjoy reading my posts.
+                </p>
+
+            </div>
+
+        </article>
+
+        <section class="comments">
+
+            <h2>Comments</h2>
+
+            <form id="commentForm">
+
+                <input
+                    type="text"
+                    id="commentName"
+                    placeholder="Your name"
+                    required
+                >
+
+                <textarea
+                    id="commentText"
+                    placeholder="Write your comment..."
+                    rows="5"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Add Comment
+                </button>
+
+            </form>
+
+            <div id="commentsList">
+
+                <div class="comment">
+                    <strong>Guest</strong>
+                    <p>Great blog post!</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 My Blogger Clone</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
